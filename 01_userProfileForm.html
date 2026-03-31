@@ -14,48 +14,48 @@
         <div class="photoArea">
             <div class="p-title">Photo Upload Area</div>
             <div class="p-photo"><img src="" alt="프로필"></div>
-            <div class="p-button">
-                <button type="button">UPLOAD PHOTO</button>
+            <div>
+                <button type="button" class="p-button">UPLOAD PHOTO</button>
             </div>
         </div>
 
         <div class="main">
             <div class="m-item">
                 <label for="fullname">Full Name</label>
-                <br>
-                <input name="fullname" id="fullname"></input>
+                <input name="fullname" id="fullname" class="m-item-input"></input>
             </div>
             <div class="m-item">
                 <label for="job">Job Title</label>
-                <br>
-                <input name="jop" id="job"></input>
+                <input name="jop" id="job" class="m-item-input"></input>
             </div>
             <div class="m-item">
                 <label for="email">Email Adress</label>
-                <br>
-                <input type="email" name="email" id="email" placeholder="email"></input>
+                <input type="email" name="email" id="email" class="m-item-input" placeholder="email" ></input>
             </div>
             <div class="m-item">
                 <label for="bio">Brief Bio</label>
-                <br>
-                <textarea name="bio" id="bio" placeholder="A short bio about yoursrlf..."></textarea>
+                <textarea name="bio" id="bio" class="m-item-input" placeholder="A short bio about yoursrlf..."></textarea>
             </div>
         </div>
         <div class="checkbox">
             <div class="c-item">Online Link to Include</div>
             <div class="c-box">
-                <input type="checkbox" name="includee-link" id="portfolio">
-                <label for="portfolio">Portfolio</label>
-                <br>
-                <input type="checkbox" name="includee-link" id="linkedln">
-                <label for="linkedln">Linkedn</label>
-                <br>
-                <input type="checkbox" name="includee-link" id="github">
-                <label for="github">Github</label>
+                <div>
+                    <input type="checkbox" name="includee-link" id="portfolio">
+                    <label for="portfolio">Portfolio</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="includee-link" id="linkedln">
+                    <label for="linkedln">Linkedn</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="includee-link" id="github">
+                    <label for="github">Github</label>
+                </div>
             </div>
         </div>
         <div class="save">
-            <button type="submit">SAVE PROFILE</button>
+            <button type="submit" class="save-btn">SAVE PROFILE</button>
         </div>
     </div>
 </body>
